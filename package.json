@@ -1,0 +1,25 @@
+{
+  "name": "wallet-api-project",
+  "version": "1.0.0",
+  "description": "API testing suite for the Wallet API challenge",
+  "scripts": {
+    "test": "playwright test",
+    "test:performance": "node performance/run-performance.js"
+  },
+  "keywords": [
+    "api-testing",
+    "playwright",
+    "typescript",
+    "k6"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.5"
+  }
+}
